@@ -1,0 +1,5 @@
+for (let tr of trs){
+    if (tr.childElementCount >= 5 && tr.children[6].innerHTML === 'In use&nbsp;'){
+        console.log(tr.children[2].innerText)
+    }
+}
