@@ -4,3 +4,5 @@ for (let tr of trs){
         console.log(tr.children[2].innerText)
     }
 }
+
+document.querySelectorAll('input')[23].click()
